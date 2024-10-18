@@ -76,6 +76,7 @@ class Program
              * Kullanılmadığı Takdirde:
              * Eğer genel bir hata yakalamazsanız, program belirli bir hata ile karşılaştığında çökebilir.
              */
+            
              Console.WriteLine("Hata: " + ex.Message);
         }
     }   
