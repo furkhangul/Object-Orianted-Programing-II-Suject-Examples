@@ -48,10 +48,12 @@ class Program
                 Console.WriteLine("Girdiğiniz kodda farklı bir hata tespit edildi !");
                 Console.WriteLine("Hata Açıklaması: " + ex.Message);
             }
+            
             finally
             {
                 Console.WriteLine("Program çalışmaya devam ediyor...");
             }
+            
         }
 
         Console.WriteLine("Program başarılı bir şekilde sonlandırıldı!");
