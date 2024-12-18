@@ -10,7 +10,8 @@ class Program
         T += Can;
         T += Ilerle;
 
-        T();
+        T.Invoke(); // Delegatelerin birden fazla şeyi üst üste yapmasını sağlıyor
+        //pek bi işe yaramıyor.
     }   
     static void Zipla()
     {
